@@ -9,6 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="bin\Debug\net8.0-windows\Resources\fullscreen.frag" />
+    <None Include="bin\Debug\net8.0-windows\Resources\fullscreen.vert" />
+    <None Include="bin\Debug\net8.0-windows\Resources\geometry.frag" />
+    <None Include="bin\Debug\net8.0-windows\Resources\geometry.vert" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="OpenTK.GLWpfControl" Version="4.3.3" />
   </ItemGroup>
 
