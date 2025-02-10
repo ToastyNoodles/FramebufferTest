@@ -39,8 +39,8 @@ namespace DeferredShadingWpf
             model = Matrix4.Identity;
 
             gbuffer = new GBuffer(1280, 720);
-            geometryShader = new Shader("C:\\dev\\DeferredShadingWpf\\Resources\\geometry.vert", "C:\\dev\\DeferredShadingTest\\Resources\\geometry.frag");
-            fullscreenShader = new Shader("C:\\dev\\DeferredShadingTest\\Resources\\fullscreen.vert", "C:\\dev\\DeferredShadingTest\\Resources\\fullscreen.frag");
+            geometryShader = new Shader("Resources\\geometry.vert", "Resources\\geometry.frag");
+            fullscreenShader = new Shader("Resources\\fullscreen.vert", "Resources\\fullscreen.frag");
         }
 
         private void OpenGLControlRender(TimeSpan delta)

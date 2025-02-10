@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="bin\Debug\net8.0\Resources\fullscreen.frag" />
+    <None Include="bin\Debug\net8.0\Resources\fullscreen.vert" />
+    <None Include="bin\Debug\net8.0\Resources\geometry.frag" />
+    <None Include="bin\Debug\net8.0\Resources\geometry.vert" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="OpenTK" Version="4.9.3" />
   </ItemGroup>
 
